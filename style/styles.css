@@ -22,7 +22,7 @@
 }
 
 .nav-link:hover {
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid var(--text-goldenrod);
     transition: all 0.7s;
 }
 
@@ -54,3 +54,14 @@ img .bright {
 .text-white {
     color: white;
 }
+
+.content-header .btn {
+    border: none;
+    padding: 12px 32px;
+}
+.content-header .btn:hover {
+   background-color: var(--bg-goldenrod);
+   transition: 0.2s all;
+
+}
+

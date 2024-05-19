@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GrammarZ</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
     <!-- BOOTSTRAP LINK -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style/styles.css">
@@ -12,8 +19,8 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-transparent border-bottom border-dark border-opacity-10">
-        <div class="container">
+    <nav class="navbar navbar-expand-md bg-transparent border-bottom border-dark border-opacity-10 sticky-top">
+        <div class="container ">
           <a class="navbar-brand fw-bold fs-5 h1" href="#">Grammar<span class="logo">Z</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,19 +29,25 @@
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Learning</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="./app/error.html">Course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="./app/error.html">Quizz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="./app/error.html">vocabulary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="./app/login.html">Login</a>
                 </li>
             </ul>
           </div>
         </div>
       </nav>
     <!-- Hero section -->
-    <section id="" class="pt-5">
+    <section id="" class="pt-5 mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 order-md-1">
@@ -50,6 +63,7 @@
                             <img src="image/heroimg3.png" class="d-block w-100 rounded-4" alt="...">
                           </div>
                         </div>
+
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Previous</span>
@@ -61,19 +75,26 @@
                       </div>
                 </div>
                 <div class="col-md-6 mt-3">
-                    <h1>GrammarZ</h1>
+                    <h1 class="fw-light fs-8"> Master English Easily and Enjoyably!</h1>
                     <div class="caption mt-4 mb-4">
-                        <p>GrammarZ adalah sebuah platform belajar bahasa inggris online, yang dibuat untuk memenuhi tugas akhir dalam matakuliah English Conversation, Disini kami ingin membantu adek-adek untuk lebih faham dengan materi bahasa inggris yang sulit untuk dimengerti karena kami akan menjelaskan sesuai dengan nalar dan logika anak-anak</p>
+                        <p>Enhance your English skills with our interactive and effective online learning platform.</p>
                     </div>
-                    <a href="/view-more.html" class="btn btn-dark">Article</a>
+                    <a href="https://wa.me/6282311649195?text=Hai,%20saya%20mau%20belajar" class="btn btn-dark">Contact-me</a>
                     <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Learn-more</button>
-                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+
+                    <div class="offcanvas offcanvas-start bg-goldenrod border border-bottom" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                         <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Learn-more</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <h5 class="offcanvas-title text-white" id="offcanvasScrollingLabel">Learn-more</h5>
+                        <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body pt-2 px-3">
-                        <p class="text-justify"> era digital yang terhubung secara global, belajar bahasa Inggris melalui kursus online telah menjadi pilihan yang populer dan efektif bagi banyak orang di seluruh dunia. Dengan kursus bahasa Inggris online, para pelajar dapat mengeksplorasi dunia bahasa secara fleksibel, mengakses materi pembelajaran dari mana saja dan kapan saja sesuai dengan jadwal mereka. Kursus ini menawarkan berbagai tingkatan, mulai dari pemula hingga tingkat lanjutan, sehingga memungkinkan para pelajar untuk memulai dari titik yang sesuai dengan kemampuan mereka saat ini dan kemudian memperluas pengetahuan mereka seiring waktu. Melalui kombinasi modul pembelajaran yang terstruktur, latihan interaktif, dan dukungan tutor online, kursus ini membantu para pelajar dalam memperbaiki keterampilan mendengar, berbicara, membaca, dan menulis bahasa Inggris. Selain itu, beberapa kursus bahasa Inggris online juga menawarkan peluang untuk berpartisipasi dalam diskusi dengan sesama pelajar dari berbagai latar belakang budaya, memperkaya pengalaman belajar mereka secara keseluruhan. Dengan teknologi yang terus berkembang, kursus bahasa Inggris online menjadi solusi pembelajaran yang efisien, praktis, dan terjangkau bagi siapa saja yang ingin menguasai bahasa Inggris dengan percaya diri dan kemampuan yang lebih baik.</p>
+                    <div class="offcanvas-body pt-2 px-3 text-white">
+                        <p class="text-justify"> With GrammarZ, you can: <br>
+
+                            Learn English grammar systematically and structuredly.
+                            Improve your vocabulary and speaking skills.
+                            Practice English conversations with native speakers.
+                            Take quizzes and tests to measure your learning progress.
+                            Get access to an active English learning community.</p>
                     </div>
                 </div>
                 </div>
@@ -81,12 +102,14 @@
         </div>
     </section>
     <!-- Content Section -->
-    <div class="container mt-5 border-bottom">
-        <h1 class=" fw-bold fs-2">Pojok Baca</h1>
-    </div>
-    <section class="pb mb-5">
+    <section class="content mt-5 mb-5">
         <div class="container">
             <div class="row">
+                <div class="content-header d-flex align-items-center justify-content-between">
+                    <h1 class=" fw-light fs-8">Reading Corner</h1>
+                    <a class="btn btn-dark"
+                    href="/view-more.html">Article</a>
+                </div>
                 <div class="col-md-4 pt-4">
                     <div class="card">
                         <div class="card-header bg-goldenrod text-white ">
@@ -116,6 +139,32 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="col-md-4 pt-4">
+                    <div class="card">
+                        <div class="card-header bg-goldenrod text-white">
+                                English Course
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Apa Saja Grammar dalam Bahasa Inggris?</h5>
+                            <p class="card-text">Materi apa saja yang ada di grammar? Materi grammar bahasa Inggris mulai dari abjad, tanda baca, kata, frasa, klausa, kalimat, termasuk tenses.</p>
+                            <button type="button" class="btn btn-dark" id="liveToastBtn3">Read More</button>
+                            <div class="toast-container position-fixed top-50 start-50 translate-middle p-3">
+                                <div id="liveToast3" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="toast-header ">
+                                        <img src="image/logo-grammarz.png" class="img-fluid rounded me-2" alt="..." width="30" height="30">
+                                        <strong class="me-auto">Jenis Grammar Dalam English</strong>
+                                        <small>11 mins ago</small>
+                                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                                    </div>
+                                    <div class="toast-body">
+                                              
+                                    </div>
+                                </div>
+                             </div>                                 
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-4 pt-4">
                     <div class="card">
                         <div class="card-header bg-goldenrod text-white">
@@ -125,7 +174,7 @@
                             <h5 class="card-title">Apa Perbedaan Tenses dan Grammar?</h5>
                             <p class="card-text">Grammar adalah tata bahasa atau struktur yang digunakan dalam membentuk kalimat, sedangkan tenses adalah bagian dari grammar, yaitu kategori tata bahasa yang menekankan pada perubahan bentuk verb untuk menunjukkan waktu dari sebuah aktivitas atau keadaan.</p>
                             <button type="button" class="btn btn-dark" id="liveToastBtn2">Read More</button>
-                            <div class="toast-container position-fixed top-50 start-50 translate-middle p-3">
+                            <div class="toast-container  top-50 start-50 translate-middle p-3">
                                   <div id="liveToast2" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                                       <div class="toast-header">
                                           <img src="image/logo-grammarz.png" class="img-fluid rounded me-2" alt="..." width="30" height="30">
@@ -136,35 +185,10 @@
                                       <div class="toast-body">
                                         Tenses adalah bagian dari grammar yang menangani waktu dalam bahasa, terdiri dari masa lampau, sekarang, dan masa depan. Ini menentukan kapan suatu peristiwa terjadi atau terjadi dalam kalimat. Sementara itu, grammar meliputi aturan-aturan yang mengatur struktur bahasa secara keseluruhan, termasuk tenses, kata kerja, kata benda, tata bahasa, dan lainnya. Jadi, tenses adalah bagian dari grammar yang fokus pada waktu, sementara grammar secara luas meliputi banyak aspek bahasa lainnya.
                                       </div>
-                                  </div>
-                              </div>                         
-                            </div>
+                                </div>
+                            </div>                         
                         </div>
                     </div>
-                    <div class="col-md-4 pt-4">
-                        <div class="card">
-                            <div class="card-header bg-goldenrod text-white">
-                                English Course
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Apa Saja Grammar dalam Bahasa Inggris?</h5>
-                                <p class="card-text">Materi apa saja yang ada di grammar? Materi grammar bahasa Inggris mulai dari abjad, tanda baca, kata, frasa, klausa, kalimat, termasuk tenses.</p>
-                                <button type="button" class="btn btn-dark" id="liveToastBtn3">Read More</button>
-                                <div class="toast-container position-fixed top-50 start-50 translate-middle p-3">
-                                      <div id="liveToast3" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                                          <div class="toast-header ">
-                                              <img src="image/logo-grammarz.png" class="img-fluid rounded me-2" alt="..." width="30" height="30">
-                                              <strong class="me-auto">Jenis Grammar Dalam English</strong>
-                                              <small>11 mins ago</small>
-                                              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                                          </div>
-                                          <div class="toast-body">
-                                              
-                                          </div>
-                                      </div>
-                                </div>                                 
-                        </div>
-                      </div>
                 </div>
             </div>
         </div>
@@ -232,6 +256,7 @@
     <!-- BOOTSRAP LINK -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <!-- JS Button Toast -->
+    <script src="./app/index.js"></script>
 </body>
 </html>
